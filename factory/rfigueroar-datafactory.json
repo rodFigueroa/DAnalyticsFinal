@@ -1,0 +1,9 @@
+{
+	"name": "rfigueroar-datafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6ae8323e-0d99-4103-9e30-cba270554085",
+		"tenantId": "1a64c8f7-542d-40da-aaa8-e06226edfaaa"
+	}
+}
