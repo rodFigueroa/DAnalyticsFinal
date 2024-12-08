@@ -15,15 +15,13 @@
 		"type": "ScheduleTrigger",
 		"typeProperties": {
 			"recurrence": {
-				"frequency": "Week",
+				"frequency": "Day",
 				"interval": 1,
 				"startTime": "2024-12-08T08:00:00",
 				"timeZone": "SA Pacific Standard Time",
 				"schedule": {
-					"weekDays": [
-						"Sunday",
-						"Tuesday",
-						"Thursday"
+					"hours": [
+						8
 					]
 				}
 			}
