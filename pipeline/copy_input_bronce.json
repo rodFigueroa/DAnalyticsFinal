@@ -110,7 +110,13 @@
 							"outputs": [
 								{
 									"referenceName": "Output_copy_input_capabronce",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"nombrearchivo": {
+											"value": "@item().name",
+											"type": "Expression"
+										}
+									}
 								}
 							]
 						}
