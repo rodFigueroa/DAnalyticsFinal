@@ -1,0 +1,32 @@
+{
+	"name": "Horario_Ejecucion",
+	"properties": {
+		"description": "Programando el intervalo de tiempo para la ejecución automática",
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "ejecutar_todo",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Week",
+				"interval": 1,
+				"startTime": "2024-12-08T08:00:00",
+				"timeZone": "SA Pacific Standard Time",
+				"schedule": {
+					"weekDays": [
+						"Sunday",
+						"Tuesday",
+						"Thursday"
+					]
+				}
+			}
+		}
+	}
+}
